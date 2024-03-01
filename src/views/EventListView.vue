@@ -1,7 +1,7 @@
 <script setup>
-import EventCard from "../components/EventCart.vue";
+import EventCard from "@/components/EventCart.vue";
 import { ref, onMounted, computed, watchEffect, watch } from "vue";
-import EventService from "../services/EventServices";
+import EventService from "@/services/EventServices";
 
 const props = defineProps(["page"]);
 const events = ref(null);
